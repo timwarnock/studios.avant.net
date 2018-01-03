@@ -36,7 +36,7 @@ input,
 select,
 textarea {
 	color: #345;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif, 'Open Sans';
 }
 p {
 	color: #9595a5;
@@ -147,7 +147,7 @@ footer.entry-meta,
  *  
  */
 .main-navigation {
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.6);
 	clear: both;
 	display: block;
 	text-align: left;
@@ -293,7 +293,7 @@ footer.entry-meta,
 	position: relative;
 }
 .header-background {
-	background: rgba(0,0,0,0.3);
+	background: rgba(255,255,255,0.7);
 	display: block;
 	position: absolute;
 		top: 0;
@@ -307,23 +307,28 @@ footer.entry-meta,
 	z-index: 2;
 }
 .site-title {
-  font-family: "UKai", "STKaiTi", "KaiTi";
+  font-family: "sans-serif";
   margin: 0;
   font-weight: normal;
-  font-size: 350%;
+  font-size: 250%;
   white-space: nowrap;
 }
 .site-title a {
-	color: #eee;
+	color: rgba(0,0,0,0.6);
 	padding: 0 0 0 15px;
 }
 .site-description {
-	color: #aaa;
+	color: #000;
 	font-size: 125%;
-	font-style: italic;
 	font-weight: normal;
 	margin: 0 0 10px 30px;
   white-space: nowrap;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
 
 
@@ -350,7 +355,7 @@ footer.entry-meta {
  */
 
 .widget-areas {
-	background: #dae0e8;
+	background: #eee;
 }
 .widget {
 	box-sizing: border-box;
@@ -413,7 +418,7 @@ input[type="reset"],
 input[type="submit"] {
 	border: 0;
 	border-radius: 3px;
-	background: #e44;
+	background: #666;
 	color: #fff;
 	cursor: pointer; 
 	line-height: 1;
@@ -434,15 +439,15 @@ input[type="submit"]:hover {
  */
 
 .site-footer {
-	background: #5f6d80;
-	color: #1d3037;
+	background: #333;
 	font-size: 90%; 
 	text-align: center;
   padding: 10px;
 }
 .site-footer a,
+.site-footer a:visited,
 .site-info {
-	color: #9da7b4;
+	color: #bbb;
 }
 .site-footer .sep {
 	clear: both;
@@ -451,9 +456,8 @@ input[type="submit"]:hover {
 	visibility: hidden;
 	width: 100%;
 }
-.site-footer a:hover,
-.site-footer a:visited {
-	color: #dae0e8;
+.site-footer a:hover {
+	color: #fff;
 }
 
 
