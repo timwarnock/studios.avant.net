@@ -24,7 +24,11 @@ a:focus {
 a img {
 	border: 0;
 }
-
+img.size-large, img.size-medium {
+  padding: 0px;
+  border: 1px solid #666;
+  background-color: #eee;
+}
 
 /*
  * globals
@@ -35,8 +39,12 @@ button,
 input,
 select,
 textarea {
-	color: #345;
-	font-family: sans-serif, 'Open Sans';
+	/*font-family: "Helvetica Neue", Helvetica, Arial, 'Open Sans'; */
+	color: #30373a;
+	font: 16px sans-serif, 'Open Sans';
+	font-weight: 300;
+	line-height: 1.4;
+	letter-spacing: 0.03em;
 }
 p {
 	color: #9595a5;
@@ -314,8 +322,9 @@ footer.entry-meta,
   white-space: nowrap;
 }
 .site-title a {
-	color: rgba(0,0,0,0.6);
-	padding: 0 0 0 15px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  padding: 0 0 0 15px;
 }
 .site-description {
 	color: #000;
@@ -355,7 +364,7 @@ footer.entry-meta {
  */
 
 .widget-areas {
-	background: #eee;
+	background: #d9d9dd;
 }
 .widget {
 	box-sizing: border-box;
@@ -462,4 +471,40 @@ input[type="submit"]:hover {
 
 
 
+
+
+/**
+ * [tooltip] attribute
+ * <span tooltip="this is a tooltip">do I have a tooltip?</span>
+ */
+[tooltip] {
+  display: inline;
+  position: relative;
+  white-space: nowrap;
+}
+
+[tooltip]:hover:after{
+	font-size: 16px; font-weight: normal;
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 30px;
+    color: #fff;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+}
+
+[tooltip]:hover:before{ /* triangle, like a speech bubble */
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 24px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
 
