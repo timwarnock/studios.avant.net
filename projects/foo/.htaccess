@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^$ index.php?loc=home [QSA]
+RewriteRule ^exhibits([^?]*)$ index.php?loc=exhibits$1 [QSA]
+RewriteRule ^help([^?]*)$ index.php?loc=help$1 [QSA]
+RewriteRule ^contact([^?]*)$ index.php?loc=contact$1 [QSA]

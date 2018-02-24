@@ -1,0 +1,28 @@
+
+#latest_artwork {
+  float: left;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  margin: 20px 20px 20px 0;
+}
+#latest_artwork p {
+  background: #f4f4f8;
+  color: #999;
+  width: 246px;
+  margin: 0 auto;
+  padding: 6px;
+  font-size: 12px;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+#latest_artwork img {
+  background: white;
+  padding: 6px;
+  border: 1px solid #bbb;
+}
+#latest_artwork img:hover {
+  background: #f4f4f4;
+}
+
