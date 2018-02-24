@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body { 
+  font: 11pt Verdana, arial, sans-serif;
+  color: #333333;
+  background: #FFFFFF url('body_background.jpg') repeat-x;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+img {
+  border: 0;
+}
+
+#main {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#desertroad_mov {
+  /* position: absolute; */
+  width: 800px;
+  margin: 60px auto 0 auto;
+  padding: 0px;
+  border: 1px solid #202020;
+  background: #ffffff;
+}
+
+#desertroad {
+}
+
+
+#poembox {
+  width: 350px;
+  margin: 0px auto 0 auto;
+  padding: 20px 5px 10px 20px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255) transparent;
+	/* RGBa with 0.1 opacity */
+	background: rgba(255, 255, 255, 0.1);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4dffffff, endColorstr=#4dffffff);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4dffffff, endColorstr=#4dffffff)";
+}
+
+.opaque {
+  filter:alpha(opacity=10);-moz-opacity:.10;opacity:.10;
+}
+
+.opaque_hi {
+  filter:alpha(opacity=50);-moz-opacity:.50;opacity:.50;
+}
+
+.solid {
+  filter:alpha(opacity=100);-moz-opacity: 1.0;opacity: 1.0;
+}
+
