@@ -55,6 +55,14 @@ h1 {
   font-size: 180%;
   margin: 40px 0 25px 0;
 }
+h1.entry-title a {
+  text-shadow:2px 2px 3px #999;
+  transition: all 0.3s ease-in;
+}
+h1.entry-title a:hover {
+  color: black;
+  text-shadow:-2px -2px 3px #999;
+}
 hr {
 	background-color: #eee;
 	border: 0;
@@ -191,11 +199,13 @@ footer.entry-meta,
 	display: block;
 	padding: .75em 1.5em;
 	text-decoration: none;
+	transition: all 0.3s ease-in;
 	font-size: 110%;
 }
 .main-navigation a:hover,
 .main-navigation li.current-menu-item a:hover {
 	color: white;
+	text-shadow: 0 0 1px rgba(255,255,255,0.8);
 	background-color: rgba(255,255,255,0.2);
 }
 .main-navigation li.current_page_item a,
@@ -507,4 +517,10 @@ input[type="submit"]:hover {
     position: absolute;
     z-index: 99;
 }
+
+.draft, .draft p {
+  text-decoration: #ccc solid line-through;
+  color: #ddd;
+}
+
 
