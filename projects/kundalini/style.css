@@ -3,12 +3,14 @@ html {
 }
 
 body { 
-  font: 11pt Verdana, arial, sans-serif;
-  color: #333333;
+  font: 14pt Verdana, arial, sans-serif;
+  color: #666;
   background: #FFFFFF ; /* url('body_background.jpg') repeat-x; */
   margin: 0;
   padding: 0;
   height: 100%;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
 }
 
 img {
