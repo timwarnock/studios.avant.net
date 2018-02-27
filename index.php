@@ -1,3 +1,3 @@
 <?php
-header('Location: /projects/kundalini');
+header('Location: /lit');
 ?>

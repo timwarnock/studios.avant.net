@@ -5,7 +5,7 @@ html {
 body { 
   font: 11pt Verdana, arial, sans-serif;
   color: #333333;
-  background: #FFFFFF url('body_background.jpg') repeat-x;
+  background: #FFFFFF /* url('body_background.jpg') repeat-x */ ;
   margin: 0;
   padding: 0;
   height: 100%;
