@@ -19,7 +19,7 @@ body {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: none;
 }
 a img {
 	border: 0;
