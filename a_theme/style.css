@@ -39,15 +39,13 @@ button,
 input,
 select,
 textarea {
-	/*font-family: "Helvetica Neue", Helvetica, Arial, 'Open Sans'; */
 	color: #30373a;
-	font: 16px sans-serif, 'Open Sans';
+	font: 16px 'UniversLTStd Cn', Arial, sans-serif, 'Open Sans';
 	font-weight: 300;
 	line-height: 1.4;
 	letter-spacing: 0.03em;
 }
 p {
-	color: #9595a5;
 }
 
 /* Headings */
