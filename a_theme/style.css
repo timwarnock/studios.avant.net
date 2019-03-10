@@ -108,6 +108,9 @@ a {
 	color: #000;
 	text-decoration: none;
 }
+p a {
+  font-weight: bold;
+}
 a:visited {
 	color: #111;
 }
@@ -243,7 +246,7 @@ footer.entry-meta,
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 495px) {
     h1 { font-size: 120%; }
     .menu { margin: 0; }
 	.menu-toggle,
@@ -262,7 +265,7 @@ footer.entry-meta,
 		display: none;
 	}
 }
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 495px) {
 	.main-navigation li {
 		display: inline-block;
 		position: relative;
