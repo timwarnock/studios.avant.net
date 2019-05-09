@@ -30,7 +30,10 @@
 	</p>
 </div>
 
-
+<div id="showall" class="fader" onclick="showall();">
+  Show All
+</div>
+<div id="everything" class="fader hidden">
 <div class="media">
 	<h2>muladhara</h2>
 	<div id="media_box">
@@ -147,6 +150,7 @@
 	Silence
 	</p>
 </div>
+</div><!--/everything -->
 
 <!-- load video -->
 <script>
@@ -192,9 +196,10 @@
     			video.removeAttribute('controls');
 				video.load();
 				video.play();
-/*
+
 				// event listeners
 				var is_mouseover = false;
+/*
     			video.addEventListener("mouseover", function(evt) {
     				is_mouseover = true;
 					//video.load();
@@ -243,6 +248,9 @@
 		}
 	}
 
+function showall() {
+    document.getElementById("showall").classList.add('hidden');
+    document.getElementById("everything").classList.remove('hidden');
 	videoize("01_muladhara");
 	videoize("02_swadhisthana");
 	videoize("03_manipura");
@@ -251,7 +259,7 @@
 	videoize("06_ajna");
 	videoize("07_sahasrara");
 	videoize("08_samadhi");
-
+}
 </script>
 
 </div><!--end main-->
