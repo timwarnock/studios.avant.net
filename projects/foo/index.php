@@ -1,6 +1,6 @@
 <?php
 ##
-# anattastudios.com
+# studios.avant.net
 # 
 # front-controller with auto-loader templates
 # by tim@timwarnock.com

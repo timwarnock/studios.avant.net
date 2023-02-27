@@ -1,6 +1,6 @@
 /*
 Theme Name: a
-Theme URI: http://anattastudios.com
+Theme URI: http://studios.avant.net
 Description: clone of the wordpress kelly theme
 Version: 0.1
 Author: timwarnock
@@ -342,6 +342,8 @@ footer.entry-meta,
   margin: 0;
   font-weight: normal;
   font-size: 250%;
+  font-family: fangsong;
+  font-style: italic;
   white-space: nowrap;
 }
 .site-title a {
@@ -354,7 +356,6 @@ footer.entry-meta,
   text-shadow: 1px 1px 2px black;
 	font-size: 125%;
 	font-weight: normal;
-	font-style: italic;
 	margin: 0 0 10px 30px;
   white-space: nowrap;
 }

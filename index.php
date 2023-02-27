@@ -1,3 +1,4 @@
 <?php
-header('Location: /lit');
+  header('Location: https://studios.avant.net/lit');
+  exit;
 ?>
